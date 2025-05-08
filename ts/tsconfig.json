@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "esnext",
+    "outDir": "_build",
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "declaration":true,
+    "emitDecoratorMetadata": false,
+    "experimentalDecorators": false,
+    "lib": [ "es2016", "dom" ],
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "allowJs":false,
+    "rootDir": ".",
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+  "include": ["./demo.ts"],
+  "exclude":["node_modules", "**/*.d.ts"]
+}

@@ -1,0 +1,73 @@
+
+.connectivity-node {
+    border: 1px solid;
+    width: 250px;
+    text-align: center;
+    transition: outline 0.5s;
+    background-color: white;
+    border-radius: 3px;
+    color: #429ab5;
+}
+
+.connectivity-node h5 {
+    padding: 5px;
+    font-weight: 700;
+}
+
+.hl {
+    outline: 12px solid #ffc06c;
+}
+
+.connectivity-node > div > div {
+    text-align: left;
+    list-style-type: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #429ab5;
+    color: white;
+    font-weight: 600;
+}
+
+.jtk-node {
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.jtk-drag-active {
+    transition: outline 0.05s;
+}
+
+.jtk-drag-hover {
+    outline:3px solid #2ba5f7;
+}
+
+[data-jtk-enabled='false'] {
+    color:#999;
+    opacity:0.3;
+    outline:none;
+}
+
+.jtk-connector path {
+    stroke: #2ba5f7;
+}
+
+.jtk-endpoint circle {
+    fill:#2ba5f7;
+}
+
+.jtk-demo-dataset {
+    font-size:12px;
+}
+
+
+#controls {
+    position:absolute;
+    left:1rem;
+    top:1rem;
+}
+
+.add-new:after {
+    content:"+";
+    margin-top: -3px;
+    cursor: pointer;
+}
